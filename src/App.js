@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './App.css';
+import { getElementError } from "@testing-library/react";
 
-function app() {
-// const [color, colorChange] = useState([255, 255, 255]);
+function App() {
+// let [color, colorChange] = useState([255, 255, 255]);
 
 //   const handleSubmit = () => {
 
@@ -10,9 +11,12 @@ function app() {
 
 //     event.preventDefault();
 //   };
+
+// input type color 은 Hex로 출력 됨
+
   return (
     <div>
-      <form /*onSubmit={handleSubmit}*/>
+      <form id="test"/*onSubmit={handleSubmit}*/>
         <div className='gradient-input'>
           <input type='color' /*value={color}*/></input>
         </div>
@@ -20,7 +24,7 @@ function app() {
       </form>
     </div>
   );
-  }
+}
 
 export default App;
 
