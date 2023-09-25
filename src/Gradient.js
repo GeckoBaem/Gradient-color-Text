@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import './Gradient.css';
 
 function Gradient() {
-  const [color1, setColor1] = useState('#C9FFBF');
+  const [color1, setColor1] = useState('#B993D6');
   const onChange1 = (e) => {
     setColor1(e.target.value);
   }
-  const [color2, setColor2] = useState('#FFAFBD');
+  const [color2, setColor2] = useState('#8CA6DB');
   const onChange2 = (e) => {
     setColor2(e.target.value);
   }
