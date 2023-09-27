@@ -18,6 +18,9 @@ function Gradient() {
           <input type='color' id="color1" value={color1} onChange={onChange1}></input>
           <input type='color' id="color2" value={color2} onChange={onChange2}></input>
         </div>
+        <div className="text-input">
+          <input></input>
+        </div>
         <button type='submit'></button>
       </form>
     </div>
