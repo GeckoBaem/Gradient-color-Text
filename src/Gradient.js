@@ -32,7 +32,7 @@ function Gradient() {
     let y = dataInput(color2);
 
     if (!text) {
-      toast.error("Please enter the text")
+      toast.error("Please Enter The Text!")
     } else {
       for (let n in rgb) {
         decimal_value.push(colorEqualInterval(x[n], y[n], text.length));  
@@ -50,21 +50,6 @@ function Gradient() {
       
     }
   }
-//        for (let n=0; n < decimal_value[i].length; n++) {
-//          a = decimal_value[i][n].toString(16);
-//          a = a.padStart(2, "0");
-//          hex_value.push(a);
-//        }
-
-  // function range(start, end, step=1) {
-  //   let array = [];
-  //   for (let i = start; i < end; ++i){
-  //     if (!(i % step)){
-  //       array.push(i);
-  //     }
-  //   }
-  //   return array;
-  // }
 
   //HEX 데이터 10진수 변환
   function dataInput(value){

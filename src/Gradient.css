@@ -114,12 +114,13 @@ form, body, p,.HelloWorld {
 }
 
 .submit button:hover {
-  box-shadow: 0 0 5px 1px rgb(250, 87, 158);
+  background-color: rgb(252, 101, 166);
+  box-shadow: 0 0 5px 1px rgb(252, 97, 164);
 }
 
 .submit button:active {
   transform: translateY(0.2em);
-  background-color: rgb(232, 84, 148);
+  background-color: rgb(222, 79, 141);
 }
 
 

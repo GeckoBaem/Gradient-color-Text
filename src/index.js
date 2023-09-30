@@ -8,8 +8,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <p id="title">Gradient Text generator</p>
-    <Gradient />
+    <div id='all'>
+      <p id="title">Gradient Text generator</p>
+      <Gradient />
+    </div>
   </React.StrictMode>
 );
 
