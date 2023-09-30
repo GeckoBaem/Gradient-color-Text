@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './Gradient.css'
 import Gradient from "./Gradient";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <p id="title">Gradient Text generator</p>
     <Gradient />
   </React.StrictMode>
 );

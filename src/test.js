@@ -1,8 +1,19 @@
-color1 = "0000FF";
+const color1 = "00FF";
 color2 = "FF0000";
-// console.log(parseInt(myString.substring(0, 2), 16))
-// console.log(parseInt(myString.substring(2, 4), 16))
-// console.log(parseInt(myString.substring(4, 6), 16))
+let array = [];
+array.push(parseInt(color1.substring(0, 2), 16))
+array.push(parseInt(color1.substring(2, 4), 16))
+array.push(parseInt(color1.substring(4, 6), 16))
+
+let again = ""
+let a = ""
+for (let i=0; i < 3; i++){
+  a = array[i].toString(16);
+  a = a.padStart(2, "0");
+  again += a;
+}
+console.log(array);
+console.log(again);
 
 function range(start, end, step=1) {
   let array = [];
@@ -33,4 +44,10 @@ function colorEqualInterval(start, stop, n) {
       value.push(Math.round(start + (step * i)).toString(16));
     }
     return value;
+}
+
+
+ const len = "12345";
+for (let i in len.length) {
+  console.log(i);
 }
