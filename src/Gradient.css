@@ -4,7 +4,7 @@ body {
   height: 100vh;
 }
 
-form, body, p,.HelloWorld {
+form, body, p, .HelloWorld, .result{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,6 +31,26 @@ form, body, p,.HelloWorld {
   width: 50em;
   height: 8em;
   position: relative;
+}
+
+.gradient-img {
+  background-image: url(img/compare_arrows.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.gradient-img:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.gradient-img:active {
+  transition-duration: 0.3s;
+  transform: rotateY( 360deg )
 }
 
 .gradient-input input {
@@ -63,13 +83,13 @@ form, body, p,.HelloWorld {
 
 #color1 {
   position: relative;
-  top: 15%;
+  top: -85%;
   left: -15%;
 }
 
 #color2 {
   position: relative;
-  top: 15%;
+  top: -85%;
   left: 92%;
 }
 
@@ -80,7 +100,7 @@ form, body, p,.HelloWorld {
   border: none;
   width: 45em;
   height: 3em;
-  margin-top: 2vh;
+  margin-top: 7vh;
   outline-style: none;
   text-align: center;
   font-family: NanumGothic;
@@ -123,4 +143,50 @@ form, body, p,.HelloWorld {
   background-color: rgb(222, 79, 141);
 }
 
+.result {
+  animation-name: result;
+  animation-duration: 1s;
+  background-color: rgb(193, 193, 193);
+  margin-top:3em ;
+  width: 61.5vh;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0px 3px 5px 0.1px rgb(188, 188, 205);
+}
+
+.result div {
+  background-color: black;
+  border-radius: 10px;
+  width: 40em;
+  left: -3%;
+  padding: 1em 1em 1em 1em;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 5px 0.1px rgb(65, 65, 65);
+}
+
+#result-child {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  left: -3%;
+  padding: 1em 1em 1em 1em;
+}
+
+@keyframes result {
+  0% {
+    opacity: 0;
+    transform: translateY(2em);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
