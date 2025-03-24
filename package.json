@@ -4,7 +4,6 @@
     "os": false,
     "path": false
   },
-  
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "assert": "^2.1.0",
     "fs": "^0.0.1-security",
+    "gh-pages": "^6.3.0",
     "node": "^20.7.0",
     "os": "^0.1.2",
     "path": "^0.12.7",
@@ -27,8 +27,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://geckobaem.github.io/Gradient-color-Text",
+
   "eslintConfig": {
     "extends": [
       "react-app",
