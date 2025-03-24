@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Gradient-color-Text/static/css/main.abd59d7e.css",
+    "main.js": "/Gradient-color-Text/static/js/main.9eaaa64a.js",
+    "static/js/787.c1112931.chunk.js": "/Gradient-color-Text/static/js/787.c1112931.chunk.js",
+    "static/media/NanumGothicCoding-Regular.ttf": "/Gradient-color-Text/static/media/NanumGothicCoding-Regular.9fd9323b064549a4f804.ttf",
+    "static/media/Lobster-Regular.ttf": "/Gradient-color-Text/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/Lalezar-Regular.ttf": "/Gradient-color-Text/static/media/Lalezar-Regular.4cbab4c9f26cf13014c6.ttf",
+    "index.html": "/Gradient-color-Text/index.html",
+    "main.abd59d7e.css.map": "/Gradient-color-Text/static/css/main.abd59d7e.css.map",
+    "main.9eaaa64a.js.map": "/Gradient-color-Text/static/js/main.9eaaa64a.js.map",
+    "787.c1112931.chunk.js.map": "/Gradient-color-Text/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd59d7e.css",
+    "static/js/main.9eaaa64a.js"
+  ]
+}
